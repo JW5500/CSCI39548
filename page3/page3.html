@@ -3,6 +3,7 @@
 <head>
 <title>Recipe Creation</title>
 <link rel="stylesheet" href="page3.css">
+<script src="page3.js"></script>
 </head>
 <body>
     <nav>
@@ -15,27 +16,27 @@
     <h1>Ingredients</h1>
     </div>
     <hr>
-        
+       
     <div class = "input-group">
         <input type = "text" class = "form-control" id="ingre">
         <button onclick = "addItem()" class = "btn btn-add" type ="button">Add</button>
         <button onclick = "removeItem()" class = "btn btn-remove" type = "button">Remove</button>  
     </div>
-        <ul id="list">
-            <li>pie crust</li>
-            <li>apple</li>
-            <li>sugar</li>
-            <li>flour</li>
-            <li>cinnamon</li>
-            <li>nutmeg</li>
-            <li>lemon</li>
-            <li>egg</li>
+        <ul id="recipe-list" class="myList">
+            <li id="pie crust">pie crust</li>
+            <li id="apple">apple</li>
+            <li id="sugar">sugar</li>
+            <li id="flour">flour</li>
+            <li id="cinnamon">cinnamon</li>
+            <li id="nutmeg">nutmeg</li>
+            <li id="lemon">lemon</li>
+            <li id="egg">egg</li>
         </ul>
 
     </div>
     <div class="cooking">
         <h1>Start Cooking</h1>
     </div>
-    <script src="page3.js"></script>
+   <script src="page3.js"></script>
 </body>
 </html>

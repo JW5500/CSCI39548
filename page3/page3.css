@@ -72,3 +72,11 @@ li{
 .cooking{
     background-color: rgb(103, 184, 21);
 }
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+    background: rgb(66,58,201);
+    background: linear-gradient(90deg, rgba(66,58,201,1) 27%, rgba(138,83,157,1) 50%, rgba(57,222,255,1) 82%);
+
+}

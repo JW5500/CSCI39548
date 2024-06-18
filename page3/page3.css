@@ -29,7 +29,7 @@ nav{
     background-color: rgb(234, 12, 171);
 }
 
-.ingredient{
+.input-group{
     box-sizing: content-box;
     margin: 0;
     padding: 0;
@@ -37,5 +37,38 @@ nav{
     display: flex;
     align-items: center;
     background-color: yellowgreen;
+}
 
+.title{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgb(234, 12, 171);
+}
+
+ul{
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+li{
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    background-color: rgb(214, 235, 22);
+    border: 1px solid rgb(103, 184, 21);
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}
+
+.cooking{
+    background-color: rgb(103, 184, 21);
 }
